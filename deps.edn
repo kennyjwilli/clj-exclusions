@@ -1,1 +1,2 @@
-{:deps {clj-http {:mvn/version "3.9.1"}}}
+{:deps {com.amazonaws/aws-java-sdk-core {:mvn/version "1.11.399"}
+        clj-http                        {:mvn/version "3.9.1"}}}
