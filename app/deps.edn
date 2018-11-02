@@ -1,2 +1,4 @@
-{:deps {foo/lib {:local/root "../lib"
-                 :exclusions [commons-logging/commons-logging]}}}
+{:deps {com.amazonaws/aws-java-sdk-cloudwatch {:mvn/version "1.11.399"}
+        lib                                   {:git/url    "git@github.com:kennyjwilli/clj-exclusions.git"
+                                               :sha        "75604cc5457fd74efd4779db280240b33f4ccac0"
+                                               :exclusions [commons-logging/commons-logging]}}}
